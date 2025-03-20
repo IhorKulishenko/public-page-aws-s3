@@ -16,8 +16,8 @@ jobs:
         aws_default_region: eu-central-1
         aws_site_bucket_name: 'public-page-123'
 
-        tf_action: 'apply'
-        tf_state_bucket: 'public-page-123'
+        # tf_action: 'apply'
+        # tf_state_bucket: 'public-page-123'
         # tf_state_bucket_destroy: true # If destroying, will remove the bucket
         
         # aws_site_cdn_enabled: true
